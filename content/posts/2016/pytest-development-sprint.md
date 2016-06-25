@@ -28,15 +28,35 @@ Discussions:
 * tox roadmap
 * [making tox work with conda environments](https://bitbucket.org/nicoddemus/tox/branch/conda-tox-design)
 * process for removing deprecated features
+* anyscope fixture
 * lightning talks
 
 Major features:
 
 * dropping pytest assert reinterpret code
 * [rename binary from 'py.test' to 'pytest'](https://github.com/pytest-dev/pytest/issues/1629)
-* documentation restructuring
-* ``--setup-only`` flag which shows how fixtures are initialised without actually running the tests
+* [documentation restructuring](https://github.com/pytest-dev/pytest/wiki/Docs-refactor)
+* [``--setup-only`` and ``--setup-plan`` flags which show how fixtures are initialised without actually running the tests](https://github.com/pytest-dev/pytest/pull/1647)
+* Adding -o commandline option to override .ini config values
 
-Bugs fixed:
-*
-*
+Other features:
+
+* pytest-qt features - improvements towards 2.0 release
+* pytest-bdd enhancements
+* pytest-html enhancements
+* pytest-environment research
+* 4 projects ported to pytest-dev organisation
+
+Bugs fixed/in progress:
+
+* [exit pytest on collection error](https://github.com/pytest-dev/pytest/issues/1421)
+* [markers stain on all related classes](https://github.com/pytest-dev/pytest/issues/568)
+* [removed deprecated command line options](https://github.com/pytest-dev/pytest/issues/1657)
+* [incorrectly dropping backets on display of assertions](https://github.com/pytest-dev/pytest/issues/925)
+* [rename getfuncargvalue to getfixturevalue](https://github.com/pytest-dev/pytest/issues/1625)
+* [warning if you use getfuncargvalue in unparametrized fixtures](https://github.com/pytest-dev/pytest/issues/460)
+* [terminal newlines in failed test output](https://github.com/pytest-dev/pytest/issues/1553)
+* [escaping curly braces in a tox command doesn't work](https://bitbucket.org/hpk42/tox/issues/212)
+* [Tox shouldn't call pip directly to avoid shebang limitations](https://bitbucket.org/hpk42/tox/issues/66)
+
+In total at least 29 pull requests were merged to pytest, and at least 12 to tox, not to mention many others to plugins.
