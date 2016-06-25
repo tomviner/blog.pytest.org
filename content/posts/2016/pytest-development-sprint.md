@@ -58,6 +58,10 @@ Bugs fixed/in progress:
 * [terminal newlines in failed test output](https://github.com/pytest-dev/pytest/issues/1553)
 * [escaping curly braces in a tox command doesn't work](https://bitbucket.org/hpk42/tox/issues/212)
 * [Tox shouldn't call pip directly to avoid shebang limitations](https://bitbucket.org/hpk42/tox/issues/66)
+* 
+
+missing evaluated value in report when asserting a boolean attribute (using --assert=rewrite) #1503
+Assert diff does not handle newline #1553
 
 In total at least 29 pull requests were merged to pytest, and at least 12 to tox, not to mention many others to plugins.
 
