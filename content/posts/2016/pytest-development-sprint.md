@@ -60,3 +60,7 @@ Bugs fixed/in progress:
 * [Tox shouldn't call pip directly to avoid shebang limitations](https://bitbucket.org/hpk42/tox/issues/66)
 
 In total at least 29 pull requests were merged to pytest, and at least 12 to tox, not to mention many others to plugins.
+
+![Hiking in the sunny Black Forest]({attach}images/sprint_hiking.jpg){.img-rounded}
+
+Thank you so much to everyone who supported the sprint. We have greatly expanded knowledge of pytest internals, and we're looking forward to bringing you pytest 3.0 very soon (aiming for before Europython)!
