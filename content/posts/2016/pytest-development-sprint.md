@@ -23,12 +23,12 @@ Work started or finished included the following.
 
 Discussions:
 
-* hooks/plugin mechanics
 * what to include in pytest 3.0
+* advanced intro sessions on plugin mechanics (pluggy) and the fixture system implementation
 * tox roadmap
 * [making tox work with conda environments](https://bitbucket.org/nicoddemus/tox/branch/conda-tox-design)
 * process for removing deprecated features
-* new 'fromcontext' scope for fixtures
+* new 'fromcontext'/'invocation' scope for fixtures and some initial prototyping  
 * lightning talks
 
 Major features:
