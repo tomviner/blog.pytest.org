@@ -54,10 +54,11 @@ Bugs fixed/in progress:
 * [removed deprecated command line options](https://github.com/pytest-dev/pytest/issues/1657)
 * [incorrectly dropping brackets on display of assertions](https://github.com/pytest-dev/pytest/issues/925)
 * [rename getfuncargvalue to getfixturevalue](https://github.com/pytest-dev/pytest/issues/1625)
-* [warning if you use getfuncargvalue in unparametrized fixtures](https://github.com/pytest-dev/pytest/issues/460)
+* [warning if you use getfuncargvalue with parametrized fixtures](https://github.com/pytest-dev/pytest/issues/460)
 * [terminal newlines in failed test output](https://github.com/pytest-dev/pytest/issues/1553)
 * [escaping curly braces in a tox command doesn't work](https://bitbucket.org/hpk42/tox/issues/212)
 * [Tox shouldn't call pip directly to avoid shebang limitations](https://bitbucket.org/hpk42/tox/issues/66)
+* [Missing evaluated value in report when asserting a boolean attribute](https://github.com/pytest-dev/pytest/issues/1503)
 
 In total at least 29 pull requests were merged to pytest, and at least 12 to tox, not to mention many others to plugins.
 
