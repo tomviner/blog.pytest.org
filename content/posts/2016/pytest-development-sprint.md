@@ -65,4 +65,4 @@ In total at least 29 pull requests were merged to pytest, and at least 12 to tox
 
 We also spent some time designing the stickers and t-shirts. Surveys will be going out to backers who chose these perks in the fundraising campaign very soon.
 
-Thank you so much to everyone who supported the sprint. We have greatly expanded knowledge of pytest internals, and we're looking forward to bringing you pytest 3.0 very soon (aiming for before EuroyPython)!
+Thank you so much to everyone who supported the sprint. We have greatly expanded knowledge of pytest internals, and we're looking forward to bringing you pytest 3.0 very soon (aiming for before EuroPython)!
