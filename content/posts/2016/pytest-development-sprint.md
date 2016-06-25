@@ -17,7 +17,7 @@ It was funded by [an indiegogo campaign](https://www.indiegogo.com/projects/pyth
 * [Personalkollen](https://personalkollen.se/)
 * [FanDuel](https://www.fanduel.com/)
 
-Participants travelled from around Europe and the UK, the US, Brazil and Australia.
+Participants travelled from around Europe and the UK, the US, Brazil, Australia and China.
 
 Work started or finished included the following.
 
